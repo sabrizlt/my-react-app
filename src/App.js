@@ -1,22 +1,13 @@
-import logo from './logo.svg';
+import ImageComponent from './ImageComponent';
+import ButtonComponent from './ButtonComponent';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ButtonComponent buttonText="FORZA NAPOLI" />
+        <ImageComponent src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCudOGLSDtdliGOJaWAVZCv2VgrL8CgPKxg&usqp=CAU" alt="napoli" />
       </header>
     </div>
   );
